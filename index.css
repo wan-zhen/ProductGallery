@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto';
+    padding-top: 20px;
+}
+
+.green-border {
+    border: 20px solid #50E3C2;
+}
+
+.green-bg {
+    background: #50E3C2;
+}
+
+.green-img {
+    background: url('./images/unit.png') center;
+}
+
+.before-logo {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.before-logo span {
+    padding: 0 10px;
+    background: #000;
+}
+
+.pic01 {
+    height: 400px;
+    background: url('./images/01.jpg') no-repeat center;
+}
+
+.pic01 .blazer {
+    font-size: 48px;
+    font-weight: 900;
+    text-shadow: 0 -10px 0px rgba(0, 0, 0, 0.30);
+}
+
+.pic01 .page01 {
+    margin-top: 323px;
+    font-size: 48px;
+}
+
+.pic01 .page01 div {
+    height: 72px;
+    background: url('./images/unit.png') repeat-x center;
+}
+
+.pic02 {
+    margin-top: 30%;
+    background: url('./images/03.jpg') no-repeat center;
+}
+
+.pic03 {
+    height: 200px;
+    background: url('./images/05.jpg') no-repeat center;
+}
+
+.pic04 {
+    height: 400px;
+    background: url('./images/08.jpg') no-repeat center right;
+    background-size: contain;
+}
+
+.pic05 {
+    height: 200px;
+    background: url('./images/07.jpg') no-repeat center right;
+    background-size: contain;
+}
+
+.pic05::after {
+    content: 'Men’s jacket';
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    position: absolute;
+    right: -25%;
+    top: 0;
+}
+
+.pic06 {
+    height: 400px;
+    background: url('./images/02.jpg') no-repeat center -200px;
+}
+
+.pic06::before {
+    content: 'VINTAGE DENIM';
+    font-size: 48px;
+    font-weight: 900;
+    text-shadow: 0 -10px 0px rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    text-align: center;
+}
+
+.pic07 {
+    height: 400px;
+    background: url('./images/04.jpg') no-repeat center;
+}
